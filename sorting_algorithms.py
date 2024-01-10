@@ -7,7 +7,7 @@
 def swap(li, i, j):
 	if i != j:
 		li[i], li[j] = li[j], li[i]
-		
+		 
 
 def BubbleSort(li):
 	swapped = False #flag in case if list is already sorted.
